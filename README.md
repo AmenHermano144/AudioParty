@@ -2,6 +2,8 @@
 
 A Windows utility that lets multiple headphones or speakers play the same system audio at the same time. Think of it as a "master audio device" that captures whatever your PC is playing and fans it out to as many outputs as you want — USB, Bluetooth, 3.5mm, all mixed together.
 
+![AudioParty Mixer](https://i.imgur.com/hm3f1R2.png)
+
 ## Why
 
 Windows only routes audio to one output device at a time. If you want two friends sharing a movie on one PC, or you want sound on both your speakers and your headphones, there is no clean way to do it. AudioParty solves that.
@@ -94,4 +96,3 @@ Each `AudioRenderer` owns its own read cursor into the ring buffer via `peek()`,
 ## Status
 
 Active personal project — v0.2. Windows-only by design.
-"# AudioParty" 
